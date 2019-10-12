@@ -7,37 +7,37 @@ using System.Linq;
 
 namespace DAL.Persistence
 {
-    public class CarRepository : ICarRepository, IDisposable
+    public class OwnerRepository : IOwnerRepository, IDisposable
     {
         private readonly ApplicationDbContext context;
-        public CarRepository(ApplicationDbContext applicationDbContext)
+        public OwnerRepository(ApplicationDbContext applicationDbContext)
         {
             context = applicationDbContext;
         }
 
-        public Car Get(Guid Id)
+        public Owner Get(Guid Id)
         {
-            return context.Cars.Find(Id);
+            return context.Owners.Find(Id);
         }
 
-        public IEnumerable<Car> GetAll()
+        public IEnumerable<Owner> GetAll()
         {
-            return context.Cars.ToList();
+            return context.Owners.ToList();
         }
 
-        public void Insert(Car model)
+        public void Insert(Owner model)
         {
-            context.Cars.Add(model);
+            context.Owners.Add(model);
         }
-        
-        public void Update(Car model)
+
+        public void Update(Owner model)
         {
             context.Entry(model).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
         }
 
-        public void Delete(Car model)
+        public void Delete(Owner model)
         {
-            context.Cars.Remove(model);
+            context.Owners.Remove(model);
         }
 
         public void Save()
@@ -64,7 +64,7 @@ namespace DAL.Persistence
         {
             Dispose(true);
             GC.SuppressFinalize(this);
-        } 
+        }
         #endregion
     }
 }
