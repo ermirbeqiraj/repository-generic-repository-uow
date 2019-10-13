@@ -11,6 +11,5 @@ namespace DAL.Core
         void Insert(Car model);
         void Update(Car model);
         void Delete(Car model);
-        void Save();
     }
 }

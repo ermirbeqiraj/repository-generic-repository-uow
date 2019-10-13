@@ -9,13 +9,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RepositoryPattern", "Reposi
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GenericRepositoryPattern", "GenericRepositoryPattern", "{AEEEF288-8242-4671-A00A-D1BCE1C0353B}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitOfWorkPattern", "UnitOfWorkPattern", "{8769CBA0-FFA6-49DC-B9EA-AC1E7762F141}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DAL", "DAL\DAL.csproj", "{46000767-6A4E-4EB5-88CB-DAD260A4731C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{5566260D-CF55-4EE7-B06C-B73503BCC16C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.EF.SqlServer", "Domain.EF.SqlServer\Domain.EF.SqlServer.csproj", "{681F82AA-5720-459E-86F8-8E6F895EF605}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain.EF.SqlServer", "Domain.EF.SqlServer\Domain.EF.SqlServer.csproj", "{681F82AA-5720-459E-86F8-8E6F895EF605}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

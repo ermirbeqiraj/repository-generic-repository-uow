@@ -11,6 +11,5 @@ namespace DAL.Core
         void Insert(Service model);
         void Update(Service model);
         void Delete(Service model);
-        void Save();
     }
 }

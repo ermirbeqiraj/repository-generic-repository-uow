@@ -40,11 +40,6 @@ namespace DAL.Persistence
         {
             context.Entry(model).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
         }
-        
-        public void Save()
-        {
-            context.SaveChanges();
-        }
 
         #region Dispose db con
         private bool disposed = false;

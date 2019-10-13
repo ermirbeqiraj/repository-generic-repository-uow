@@ -40,11 +40,6 @@ namespace DAL.Persistence
             context.Owners.Remove(model);
         }
 
-        public void Save()
-        {
-            context.SaveChanges();
-        }
-
         #region Dispose db con
         private bool disposed = false;
 

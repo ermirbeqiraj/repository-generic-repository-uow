@@ -40,11 +40,6 @@ namespace DAL.Persistence
             context.Cars.Remove(model);
         }
 
-        public void Save()
-        {
-            context.SaveChanges();
-        }
-
         #region Dispose db con
         private bool disposed = false;
 
