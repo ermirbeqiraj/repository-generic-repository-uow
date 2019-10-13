@@ -53,12 +53,29 @@ namespace GenericRepositoryPattern.DAL
 
         public void Commit()
         {
-            throw new NotImplementedException();
+            _context.SaveChanges();
+        }
+
+        #region Dispose db con
+        private bool disposed = false;
+
+        protected virtual void Dispose(bool disposing)
+        {
+            if (!this.disposed)
+            {
+                if (disposing)
+                {
+                    _context.Dispose();
+                }
+            }
+            this.disposed = true;
         }
 
         public void Dispose()
         {
-            throw new NotImplementedException();
+            Dispose(true);
+            GC.SuppressFinalize(this);
         }
+        #endregion
     }
 }
