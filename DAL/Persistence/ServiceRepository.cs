@@ -1,11 +1,11 @@
-﻿using DAL.Core;
+﻿using RepositoryPattern.DAL.Core;
 using Domain;
 using Domain.EF.SqlServer;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace DAL.Persistence
+namespace RepositoryPattern.DAL.Persistence
 {
     public class ServiceRepository : IServiceRepository, IDisposable
     {

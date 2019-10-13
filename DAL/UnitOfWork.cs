@@ -1,9 +1,9 @@
-﻿using DAL.Core;
-using DAL.Persistence;
+﻿using RepositoryPattern.DAL.Core;
+using RepositoryPattern.DAL.Persistence;
 using Domain.EF.SqlServer;
 using System;
 
-namespace DAL
+namespace RepositoryPattern.DAL
 {
     public class UnitOfWork : IUnitOfWork, IDisposable
     {

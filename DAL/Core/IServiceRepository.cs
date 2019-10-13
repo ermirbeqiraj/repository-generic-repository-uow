@@ -2,7 +2,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace DAL.Core
+namespace RepositoryPattern.DAL.Core
 {
     public interface IServiceRepository
     {

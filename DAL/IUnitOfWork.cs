@@ -1,6 +1,6 @@
-﻿using DAL.Core;
+﻿using RepositoryPattern.DAL.Core;
 
-namespace DAL
+namespace RepositoryPattern.DAL
 {
     public interface IUnitOfWork
     {

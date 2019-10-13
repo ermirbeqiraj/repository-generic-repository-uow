@@ -8,6 +8,11 @@ namespace Domain.EF.SqlServer
 {
     public class ApplicationDbContext : DbContext
     {
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
+        {
+
+        }
+
         public DbSet<Car> Cars { get; set; }
         public DbSet<Owner> Owners { get; set; }
         public DbSet<Service> Services { get; set; }
