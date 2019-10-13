@@ -15,7 +15,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain.EF.SqlServer", "Domain.EF.SqlServer\Domain.EF.SqlServer.csproj", "{681F82AA-5720-459E-86F8-8E6F895EF605}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryPattern.ApiClient", "RepositoryPattern.ApiClient\RepositoryPattern.ApiClient.csproj", "{AEC0B50F-115B-4784-BC08-4DD5C17B3B48}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RepositoryPattern.ApiClient", "RepositoryPattern.ApiClient\RepositoryPattern.ApiClient.csproj", "{AEC0B50F-115B-4784-BC08-4DD5C17B3B48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericRepositoryPattern.DAL", "GenericRepositoryPattern.DAL\GenericRepositoryPattern.DAL.csproj", "{883885DB-6C58-4007-B76F-F7A81EBD4366}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{AEC0B50F-115B-4784-BC08-4DD5C17B3B48}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AEC0B50F-115B-4784-BC08-4DD5C17B3B48}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AEC0B50F-115B-4784-BC08-4DD5C17B3B48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{883885DB-6C58-4007-B76F-F7A81EBD4366}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{883885DB-6C58-4007-B76F-F7A81EBD4366}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{883885DB-6C58-4007-B76F-F7A81EBD4366}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{883885DB-6C58-4007-B76F-F7A81EBD4366}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -47,6 +53,7 @@ Global
 		{46000767-6A4E-4EB5-88CB-DAD260A4731C} = {C33F3D74-029A-491D-8B21-DB070CDDA319}
 		{681F82AA-5720-459E-86F8-8E6F895EF605} = {5566260D-CF55-4EE7-B06C-B73503BCC16C}
 		{AEC0B50F-115B-4784-BC08-4DD5C17B3B48} = {C33F3D74-029A-491D-8B21-DB070CDDA319}
+		{883885DB-6C58-4007-B76F-F7A81EBD4366} = {AEEEF288-8242-4671-A00A-D1BCE1C0353B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {330994DB-CED4-485D-B420-6B69A1C51D73}
