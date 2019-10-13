@@ -11,6 +11,7 @@ namespace Domain
         }
         public string VIN { get; set; }
         public string Model { get; set; }
+        public DateTime LastService { get; set; }
         public Guid OwnerId { get; set; }
         public virtual Owner Owner { get; set; }
         public virtual ICollection<Service> Services { get; set; }

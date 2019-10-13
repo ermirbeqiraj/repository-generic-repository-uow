@@ -12,6 +12,8 @@ namespace Domain.EF.SqlServer.Configurations
 
             builder.Property(x => x.Model).HasMaxLength(100);
 
+            builder.Property(x => x.LastService).IsRequired();
+
             builder.Property(x => x.Created).HasDefaultValueSql("GetDate()").IsRequired();
             builder.Property(x => x.IsActive).HasDefaultValue(true);
         }
