@@ -19,6 +19,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RepositoryPattern.ApiClient
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericRepositoryPattern.DAL", "GenericRepositoryPattern.DAL\GenericRepositoryPattern.DAL.csproj", "{883885DB-6C58-4007-B76F-F7A81EBD4366}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericRepositoryPattern.ApiClient", "GenericRepositoryPattern.ApiClient\GenericRepositoryPattern.ApiClient.csproj", "{A48FAC26-5CC1-4013-8323-481BAF7BF039}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{883885DB-6C58-4007-B76F-F7A81EBD4366}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{883885DB-6C58-4007-B76F-F7A81EBD4366}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{883885DB-6C58-4007-B76F-F7A81EBD4366}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A48FAC26-5CC1-4013-8323-481BAF7BF039}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A48FAC26-5CC1-4013-8323-481BAF7BF039}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A48FAC26-5CC1-4013-8323-481BAF7BF039}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A48FAC26-5CC1-4013-8323-481BAF7BF039}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -54,6 +60,7 @@ Global
 		{681F82AA-5720-459E-86F8-8E6F895EF605} = {5566260D-CF55-4EE7-B06C-B73503BCC16C}
 		{AEC0B50F-115B-4784-BC08-4DD5C17B3B48} = {C33F3D74-029A-491D-8B21-DB070CDDA319}
 		{883885DB-6C58-4007-B76F-F7A81EBD4366} = {AEEEF288-8242-4671-A00A-D1BCE1C0353B}
+		{A48FAC26-5CC1-4013-8323-481BAF7BF039} = {AEEEF288-8242-4671-A00A-D1BCE1C0353B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {330994DB-CED4-485D-B420-6B69A1C51D73}
